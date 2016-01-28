@@ -67,6 +67,7 @@ var _ = Describe("ListDomains", func() {
 		targetedOrgRequirement = &fakerequirements.FakeTargetedOrgRequirement{}
 		factory.NewTargetedOrgRequirementReturns(targetedOrgRequirement)
 
+		domainFields = []models.DomainFields{}
 		domainRepo.ListDomainsForOrgStub = func(orgGuid string, cb func(models.DomainFields) bool) error {
 			for _, field := range domainFields {
 				if !cb(field) {
