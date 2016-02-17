@@ -1,7 +1,7 @@
 package command_registry_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

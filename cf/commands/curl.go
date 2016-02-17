@@ -8,17 +8,17 @@ import (
 	"path/filepath"
 	"strings"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/util"
-	"github.com/cloudfoundry/cli/flags"
-	"github.com/cloudfoundry/cli/flags/flag"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/cf/util"
+	"github.com/fujitsu-cf/cli/flags"
+	"github.com/fujitsu-cf/cli/flags/flag"
 
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/cf/trace"
+	"github.com/fujitsu-cf/cli/cf/api"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/trace"
 )
 
 type Curl struct {
@@ -50,7 +50,7 @@ func (cmd *Curl) MetaData() command_registry.CommandMetadata {
    will be set to application/json. You may override headers with -H and the
    request method with -X.
 
-   For API documentation, please visit http://apidocs.cloudfoundry.org.
+   For API documentation, please visit http://apidocs.fujitsu-cf.org.
 
 EXAMPLES:
    cf curl "/v2/apps" -X GET \

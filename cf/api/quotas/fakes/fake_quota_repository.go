@@ -2,9 +2,9 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api/quotas"
+	. "github.com/fujitsu-cf/cli/cf/api/quotas"
 
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/models"
 
 	"sync"
 )

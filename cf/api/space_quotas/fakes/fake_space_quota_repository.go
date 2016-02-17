@@ -2,8 +2,8 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api/space_quotas"
-	"github.com/cloudfoundry/cli/cf/models"
+	. "github.com/fujitsu-cf/cli/cf/api/space_quotas"
+	"github.com/fujitsu-cf/cli/cf/models"
 	"sync"
 )
 

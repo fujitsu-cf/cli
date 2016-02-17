@@ -3,18 +3,18 @@ package plugin_repo
 import (
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf/actors/plugin_repo"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/flags"
-	"github.com/cloudfoundry/cli/flags/flag"
+	"github.com/fujitsu-cf/cli/cf/actors/plugin_repo"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/flags"
+	"github.com/fujitsu-cf/cli/flags/flag"
 
 	clipr "github.com/cloudfoundry-incubator/cli-plugin-repo/models"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
 )
 
 type RepoPlugins struct {

@@ -4,11 +4,11 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/commands/route"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/commands/route"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/flags"
 )
 
 type FakeRouteCreator struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type AppManifest interface {

@@ -8,11 +8,11 @@ import (
 	"text/template"
 	"unicode/utf8"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/plugin_config"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/plugin_config"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 type appPresenter struct {

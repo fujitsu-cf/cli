@@ -2,8 +2,8 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api/application_bits"
-	"github.com/cloudfoundry/cli/cf/api/resources"
+	. "github.com/fujitsu-cf/cli/cf/api/application_bits"
+	"github.com/fujitsu-cf/cli/cf/api/resources"
 	"os"
 	"sync"
 )

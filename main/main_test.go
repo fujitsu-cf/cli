@@ -220,7 +220,7 @@ var _ = Describe("main", func() {
 })
 
 func Cf(args ...string) *Session {
-	path, err := Build("github.com/cloudfoundry/cli/main")
+	path, err := Build("github.com/fujitsu-cf/cli/main")
 	Expect(err).NotTo(HaveOccurred())
 
 	session, err := Start(exec.Command(path, args...), GinkgoWriter, GinkgoWriter)
@@ -229,7 +229,7 @@ func Cf(args ...string) *Session {
 	return session
 }
 func CfWithIo(command string, args string) *Session {
-	path, err := Build("github.com/cloudfoundry/cli/main")
+	path, err := Build("github.com/fujitsu-cf/cli/main")
 	Expect(err).NotTo(HaveOccurred())
 
 	cmd := exec.Command(path, command)
@@ -247,7 +247,7 @@ func CfWithIo(command string, args string) *Session {
 	return session
 }
 func CfWith_CF_HOME(cfHome string, args ...string) *Session {
-	path, err := Build("github.com/cloudfoundry/cli/main")
+	path, err := Build("github.com/fujitsu-cf/cli/main")
 	Expect(err).NotTo(HaveOccurred())
 
 	cmd := exec.Command(path, args...)

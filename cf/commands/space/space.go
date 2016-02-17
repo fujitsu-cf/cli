@@ -4,18 +4,18 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/flags"
-	"github.com/cloudfoundry/cli/flags/flag"
-	"github.com/cloudfoundry/cli/plugin/models"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/flags"
+	"github.com/fujitsu-cf/cli/flags/flag"
+	"github.com/fujitsu-cf/cli/plugin/models"
 
-	"github.com/cloudfoundry/cli/cf/api/space_quotas"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/formatters"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/api/space_quotas"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/formatters"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 type ShowSpace struct {

@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/configuration"
+	"github.com/fujitsu-cf/cli/cf/configuration"
 )
 
 type FakePersistor struct {

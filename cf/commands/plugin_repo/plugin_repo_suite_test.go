@@ -1,9 +1,9 @@
 package plugin_repo_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/commands/plugin_repo"
-	"github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/testhelpers/configuration"
+	"github.com/fujitsu-cf/cli/cf/commands/plugin_repo"
+	"github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/testhelpers/configuration"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

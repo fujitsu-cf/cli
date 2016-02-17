@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/api/app_instances"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/api/app_instances"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type FakeAppInstancesRepository struct {

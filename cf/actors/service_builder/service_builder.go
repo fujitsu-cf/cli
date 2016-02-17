@@ -3,9 +3,9 @@ package service_builder
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf/actors/plan_builder"
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/actors/plan_builder"
+	"github.com/fujitsu-cf/cli/cf/api"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type ServiceBuilder interface {

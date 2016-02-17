@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 type FakeOutputCapture struct {

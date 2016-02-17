@@ -3,11 +3,11 @@ package requirements_test
 import (
 	"errors"
 
-	test_org "github.com/cloudfoundry/cli/cf/api/organizations/fakes"
-	"github.com/cloudfoundry/cli/cf/models"
-	. "github.com/cloudfoundry/cli/cf/requirements"
-	testassert "github.com/cloudfoundry/cli/testhelpers/assert"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	test_org "github.com/fujitsu-cf/cli/cf/api/organizations/fakes"
+	"github.com/fujitsu-cf/cli/cf/models"
+	. "github.com/fujitsu-cf/cli/cf/requirements"
+	testassert "github.com/fujitsu-cf/cli/testhelpers/assert"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

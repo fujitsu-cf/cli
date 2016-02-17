@@ -2,7 +2,7 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/terminal"
+	. "github.com/fujitsu-cf/cli/cf/terminal"
 	"sync"
 )
 

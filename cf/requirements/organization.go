@@ -1,9 +1,9 @@
 package requirements
 
 import (
-	"github.com/cloudfoundry/cli/cf/api/organizations"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/api/organizations"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 //go:generate counterfeiter -o fakes/fake_organization_requirement.go . OrganizationRequirement

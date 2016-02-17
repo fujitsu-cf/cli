@@ -11,7 +11,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cloudfoundry/cli/plugin"
+	"github.com/fujitsu-cf/cli/plugin"
 )
 
 type PluginDemonstratingParams struct {

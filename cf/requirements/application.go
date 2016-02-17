@@ -1,9 +1,9 @@
 package requirements
 
 import (
-	"github.com/cloudfoundry/cli/cf/api/applications"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/api/applications"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 //go:generate counterfeiter -o fakes/fake_application_requirement.go . ApplicationRequirement

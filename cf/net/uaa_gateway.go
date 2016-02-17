@@ -3,9 +3,9 @@ package net
 import (
 	"encoding/json"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 type uaaErrorResponse struct {

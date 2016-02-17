@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/cloudfoundry/cli/cf/actors"
-	fakeBits "github.com/cloudfoundry/cli/cf/api/application_bits/fakes"
-	"github.com/cloudfoundry/cli/cf/api/resources"
-	"github.com/cloudfoundry/cli/cf/app_files"
-	"github.com/cloudfoundry/cli/cf/app_files/fakes"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/actors"
+	fakeBits "github.com/fujitsu-cf/cli/cf/api/application_bits/fakes"
+	"github.com/fujitsu-cf/cli/cf/api/resources"
+	"github.com/fujitsu-cf/cli/cf/app_files"
+	"github.com/fujitsu-cf/cli/cf/app_files/fakes"
+	"github.com/fujitsu-cf/cli/cf/models"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

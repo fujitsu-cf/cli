@@ -1,8 +1,8 @@
 package fakes
 
 import (
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type FakeAppSummaryRepo struct {

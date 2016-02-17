@@ -3,21 +3,21 @@ package commands_test
 import (
 	"strconv"
 
-	"github.com/cloudfoundry/cli/cf"
-	authenticationfakes "github.com/cloudfoundry/cli/cf/api/authentication/fakes"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	fake_organizations "github.com/cloudfoundry/cli/cf/api/organizations/fakes"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/models"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/fujitsu-cf/cli/cf"
+	authenticationfakes "github.com/fujitsu-cf/cli/cf/api/authentication/fakes"
+	testapi "github.com/fujitsu-cf/cli/cf/api/fakes"
+	fake_organizations "github.com/fujitsu-cf/cli/cf/api/organizations/fakes"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/models"
+	testcmd "github.com/fujitsu-cf/cli/testhelpers/commands"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 )
 
 var _ = Describe("Login Command", func() {

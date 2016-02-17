@@ -1,8 +1,8 @@
 package configuration
 
 import (
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 func NewRepository() core_config.Repository {

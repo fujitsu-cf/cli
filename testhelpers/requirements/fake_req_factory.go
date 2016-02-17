@@ -2,9 +2,9 @@ package requirements
 
 import (
 	"github.com/blang/semver"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 type FakeReqFactory struct {

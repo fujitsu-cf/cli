@@ -1,12 +1,12 @@
 package rpc_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	. "github.com/cloudfoundry/cli/plugin/rpc"
-	. "github.com/cloudfoundry/cli/plugin/rpc/fake_command"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	. "github.com/fujitsu-cf/cli/plugin/rpc"
+	. "github.com/fujitsu-cf/cli/plugin/rpc/fake_command"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

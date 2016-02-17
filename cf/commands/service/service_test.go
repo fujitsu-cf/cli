@@ -1,15 +1,15 @@
 package service_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/plugin/models"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/plugin/models"
+	testcmd "github.com/fujitsu-cf/cli/testhelpers/commands"
+	testreq "github.com/fujitsu-cf/cli/testhelpers/requirements"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/cf/commands/service"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/cf/commands/service"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

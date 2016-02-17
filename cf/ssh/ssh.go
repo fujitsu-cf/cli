@@ -17,10 +17,10 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/ssh/options"
-	"github.com/cloudfoundry/cli/cf/ssh/sigwinch"
-	"github.com/cloudfoundry/cli/cf/ssh/terminal"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/ssh/options"
+	"github.com/fujitsu-cf/cli/cf/ssh/sigwinch"
+	"github.com/fujitsu-cf/cli/cf/ssh/terminal"
 	"github.com/docker/docker/pkg/term"
 )
 
@@ -413,7 +413,7 @@ func keepalive(conn ssh.Conn, ticker *time.Ticker, stopCh chan struct{}) {
 	for {
 		select {
 		case <-ticker.C:
-			conn.SendRequest("keepalive@cloudfoundry.org", true, nil)
+			conn.SendRequest("keepalive@fujitsu-cf.org", true, nil)
 		case <-stopCh:
 			ticker.Stop()
 			return

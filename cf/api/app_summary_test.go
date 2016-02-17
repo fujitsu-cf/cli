@@ -5,14 +5,14 @@ import (
 	"net/http/httptest"
 	"time"
 
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	"github.com/cloudfoundry/cli/cf/net"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testapi "github.com/fujitsu-cf/cli/cf/api/fakes"
+	"github.com/fujitsu-cf/cli/cf/net"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testnet "github.com/fujitsu-cf/cli/testhelpers/net"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/cf/api"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/cf/api"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

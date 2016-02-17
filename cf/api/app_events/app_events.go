@@ -1,11 +1,11 @@
 package app_events
 
 import (
-	"github.com/cloudfoundry/cli/cf/api/resources"
-	"github.com/cloudfoundry/cli/cf/api/strategy"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/net"
+	"github.com/fujitsu-cf/cli/cf/api/resources"
+	"github.com/fujitsu-cf/cli/cf/api/strategy"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/net"
 )
 
 type AppEventsRepository interface {

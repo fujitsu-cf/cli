@@ -1,16 +1,16 @@
 package application_test
 
 import (
-	appCmdFakes "github.com/cloudfoundry/cli/cf/commands/application/fakes"
-	"github.com/cloudfoundry/cli/cf/models"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	appCmdFakes "github.com/fujitsu-cf/cli/cf/commands/application/fakes"
+	"github.com/fujitsu-cf/cli/cf/models"
+	testcmd "github.com/fujitsu-cf/cli/testhelpers/commands"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testreq "github.com/fujitsu-cf/cli/testhelpers/requirements"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

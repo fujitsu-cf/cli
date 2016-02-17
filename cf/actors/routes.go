@@ -1,11 +1,11 @@
 package actors
 
 import (
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/errors"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf/api"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 type RouteActor struct {

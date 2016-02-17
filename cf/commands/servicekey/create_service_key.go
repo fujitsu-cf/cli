@@ -1,17 +1,17 @@
 package servicekey
 
 import (
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/flags"
-	"github.com/cloudfoundry/cli/flags/flag"
-	"github.com/cloudfoundry/cli/json"
+	"github.com/fujitsu-cf/cli/cf/api"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/flags"
+	"github.com/fujitsu-cf/cli/flags/flag"
+	"github.com/fujitsu-cf/cli/json"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
 )
 
 type CreateServiceKey struct {

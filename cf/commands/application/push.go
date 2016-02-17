@@ -9,26 +9,26 @@ import (
 	"strings"
 
 	"github.com/blang/semver"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/flags"
-	"github.com/cloudfoundry/cli/flags/flag"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/flags"
+	"github.com/fujitsu-cf/cli/flags/flag"
 
-	"github.com/cloudfoundry/cli/cf/actors"
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/api/applications"
-	"github.com/cloudfoundry/cli/cf/api/authentication"
-	"github.com/cloudfoundry/cli/cf/api/stacks"
-	"github.com/cloudfoundry/cli/cf/app_files"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/commands/service"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/formatters"
-	"github.com/cloudfoundry/cli/cf/manifest"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/words/generator"
+	"github.com/fujitsu-cf/cli/cf/actors"
+	"github.com/fujitsu-cf/cli/cf/api"
+	"github.com/fujitsu-cf/cli/cf/api/applications"
+	"github.com/fujitsu-cf/cli/cf/api/authentication"
+	"github.com/fujitsu-cf/cli/cf/api/stacks"
+	"github.com/fujitsu-cf/cli/cf/app_files"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/commands/service"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/formatters"
+	"github.com/fujitsu-cf/cli/cf/manifest"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/words/generator"
 )
 
 type Push struct {
@@ -56,7 +56,7 @@ func init() {
 
 func (cmd *Push) MetaData() command_registry.CommandMetadata {
 	fs := make(map[string]flags.FlagSet)
-	fs["b"] = &cliFlags.StringFlag{ShortName: "b", Usage: T("Custom buildpack by name (e.g. my-buildpack) or Git URL (e.g. 'https://github.com/cloudfoundry/java-buildpack.git') or Git URL with a branch or tag (e.g. 'https://github.com/cloudfoundry/java-buildpack.git#v3.3.0' for 'v3.3.0' tag). To use built-in buildpacks only, specify 'default' or 'null'")}
+	fs["b"] = &cliFlags.StringFlag{ShortName: "b", Usage: T("Custom buildpack by name (e.g. my-buildpack) or Git URL (e.g. 'https://github.com/fujitsu-cf/java-buildpack.git') or Git URL with a branch or tag (e.g. 'https://github.com/fujitsu-cf/java-buildpack.git#v3.3.0' for 'v3.3.0' tag). To use built-in buildpacks only, specify 'default' or 'null'")}
 	fs["c"] = &cliFlags.StringFlag{ShortName: "c", Usage: T("Startup command, set to null to reset to default start command")}
 	fs["d"] = &cliFlags.StringFlag{ShortName: "d", Usage: T("Domain (e.g. example.com)")}
 	fs["f"] = &cliFlags.StringFlag{ShortName: "f", Usage: T("Path to manifest")}

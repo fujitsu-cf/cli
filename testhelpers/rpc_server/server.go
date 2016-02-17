@@ -9,8 +9,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/cloudfoundry/cli/plugin"
-	"github.com/cloudfoundry/cli/plugin/models"
+	"github.com/fujitsu-cf/cli/plugin"
+	"github.com/fujitsu-cf/cli/plugin/models"
 )
 
 //go:generate counterfeiter -o fakes/fake_handlers.go . Handlers

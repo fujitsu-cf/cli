@@ -1,15 +1,15 @@
 package environmentvariablegroup_test
 
 import (
-	test_environmentVariableGroups "github.com/cloudfoundry/cli/cf/api/environment_variable_groups/fakes"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	test_environmentVariableGroups "github.com/fujitsu-cf/cli/cf/api/environment_variable_groups/fakes"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/models"
+	testcmd "github.com/fujitsu-cf/cli/testhelpers/commands"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
+	testreq "github.com/fujitsu-cf/cli/testhelpers/requirements"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

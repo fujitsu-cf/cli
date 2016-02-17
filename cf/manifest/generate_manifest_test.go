@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	. "github.com/cloudfoundry/cli/cf/manifest"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/cf/manifest"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	"github.com/nu7hatch/gouuid"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

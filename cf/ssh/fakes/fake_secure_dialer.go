@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/ssh"
+	"github.com/fujitsu-cf/cli/cf/ssh"
 	"golang.org/x/crypto/ssh"
 )
 

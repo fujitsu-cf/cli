@@ -6,13 +6,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/configuration/config_helpers"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/fujitsu-cf/cli/cf"
+	"github.com/fujitsu-cf/cli/cf/configuration/config_helpers"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/flags"
 
-	. "github.com/cloudfoundry/cli/cf/terminal"
+	. "github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 var _ = initI18nFunc()

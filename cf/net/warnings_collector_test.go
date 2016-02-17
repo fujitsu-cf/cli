@@ -3,11 +3,11 @@ package net_test
 import (
 	"os"
 
-	"github.com/cloudfoundry/cli/cf/net"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/fujitsu-cf/cli/cf/net"
+	testnet "github.com/fujitsu-cf/cli/testhelpers/net"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

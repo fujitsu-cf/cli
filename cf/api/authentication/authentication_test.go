@@ -6,14 +6,14 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/net"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/net"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testnet "github.com/fujitsu-cf/cli/testhelpers/net"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/cf/api/authentication"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/cf/api/authentication"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
@@ -242,7 +242,7 @@ var _ = Describe("AuthenticationRepository", func() {
 						"response_type=code&grant_type=authorization_code&client_id=ssh-oauth-client",
 					),
 					ghttp.RespondWith(http.StatusFound, ``, http.Header{
-						"Location": []string{"https://www.cloudfoundry.example.com?code=F45jH"},
+						"Location": []string{"https://www.fujitsu-cf.example.com?code=F45jH"},
 					}),
 				),
 			)
@@ -302,7 +302,7 @@ var _ = Describe("AuthenticationRepository", func() {
 		Context("when the authorization server returns multiple codes", func() {
 			BeforeEach(func() {
 				uaaServer.SetHandler(0, ghttp.RespondWith(http.StatusFound, ``, http.Header{
-					"Location": []string{"https://www.cloudfoundry.example.com?code=F45jH&code=LLLLL"},
+					"Location": []string{"https://www.fujitsu-cf.example.com?code=F45jH&code=LLLLL"},
 				}))
 			})
 
@@ -403,7 +403,7 @@ var loginServerLoginRequest = testnet.TestRequest{
 {
 	"timestamp":"2013-12-18T11:26:53-0700",
 	"app":{
-		"artifact":"cloudfoundry-identity-uaa",
+		"artifact":"fujitsu-cf-identity-uaa",
 		"description":"User Account and Authentication Service",
 		"name":"UAA",
 		"version":"1.4.7"
@@ -413,7 +413,7 @@ var loginServerLoginRequest = testnet.TestRequest{
 	    "register":"https://console.run.pivotal.io/register",
 	    "passwd":"https://console.run.pivotal.io/password_resets/new",
 	    "home":"https://console.run.pivotal.io",
-	    "support":"https://support.cloudfoundry.com/home",
+	    "support":"https://support.fujitsu-cf.com/home",
 	    "login":"https://login.run.pivotal.io",
 	    "uaa":"https://uaa.run.pivotal.io"
 	 },
@@ -442,7 +442,7 @@ var uaaServerLoginRequest = testnet.TestRequest{
 {
 	"timestamp":"2013-12-18T11:26:53-0700",
 	"app":{
-		"artifact":"cloudfoundry-identity-uaa",
+		"artifact":"fujitsu-cf-identity-uaa",
 		"description":"User Account and Authentication Service",
 		"name":"UAA",
 		"version":"1.4.7"

@@ -3,10 +3,10 @@ package repository_test
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/v3/models"
-	"github.com/cloudfoundry/cli/cf/v3/repository"
-	"github.com/cloudfoundry/cli/testhelpers/configuration"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/v3/models"
+	"github.com/fujitsu-cf/cli/cf/v3/repository"
+	"github.com/fujitsu-cf/cli/testhelpers/configuration"
 
 	ccClientFakes "github.com/cloudfoundry/go-ccapi/v3/client/fakes"
 

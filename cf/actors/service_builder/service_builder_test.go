@@ -3,11 +3,11 @@ package service_builder_test
 import (
 	"errors"
 
-	plan_builder_fakes "github.com/cloudfoundry/cli/cf/actors/plan_builder/fakes"
-	"github.com/cloudfoundry/cli/cf/actors/service_builder"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
+	plan_builder_fakes "github.com/fujitsu-cf/cli/cf/actors/plan_builder/fakes"
+	"github.com/fujitsu-cf/cli/cf/actors/service_builder"
+	testapi "github.com/fujitsu-cf/cli/cf/api/fakes"
 
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/models"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

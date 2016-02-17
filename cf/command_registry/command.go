@@ -1,8 +1,8 @@
 package command_registry
 
 import (
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/fujitsu-cf/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/flags"
 )
 
 //go:generate counterfeiter -o fakes/fake_command.go . Command

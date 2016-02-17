@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/manifest"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/manifest"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type FakeAppManifest struct {

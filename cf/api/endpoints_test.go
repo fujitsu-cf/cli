@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/net"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	. "github.com/fujitsu-cf/cli/cf/api"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/net"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testnet "github.com/fujitsu-cf/cli/testhelpers/net"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -29,7 +29,7 @@ func validApiInfoEndpoint(w http.ResponseWriter, r *http.Request) {
 {
   "name": "vcap",
   "build": "2222",
-  "support": "http://support.cloudfoundry.com",
+  "support": "http://support.fujitsu-cf.com",
   "version": 2,
   "description": "Cloud Foundry sponsored by Pivotal",
 	"app_ssh_oauth_client": "ssh-client-id",
@@ -52,7 +52,7 @@ func apiInfoEndpointWithoutLogURL(w http.ResponseWriter, r *http.Request) {
 {
   "name": "vcap",
   "build": "2222",
-  "support": "http://support.cloudfoundry.com",
+  "support": "http://support.fujitsu-cf.com",
   "routing_endpoint": "http://api.example.com/routing",
   "version": 2,
   "description": "Cloud Foundry sponsored by Pivotal",

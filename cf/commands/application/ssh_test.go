@@ -6,20 +6,20 @@ import (
 	"net/http/httptest"
 	"time"
 
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	cmdFakes "github.com/cloudfoundry/cli/cf/commands/fakes"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/net"
-	testssh "github.com/cloudfoundry/cli/cf/ssh/fakes"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testapi "github.com/fujitsu-cf/cli/cf/api/fakes"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	cmdFakes "github.com/fujitsu-cf/cli/cf/commands/fakes"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/net"
+	testssh "github.com/fujitsu-cf/cli/cf/ssh/fakes"
+	testcmd "github.com/fujitsu-cf/cli/testhelpers/commands"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testnet "github.com/fujitsu-cf/cli/testhelpers/net"
+	testreq "github.com/fujitsu-cf/cli/testhelpers/requirements"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -326,7 +326,7 @@ const getInfoResponseBody string = `
 {
    "name": "vcap",
    "build": "2222",
-   "support": "http://support.cloudfoundry.com",
+   "support": "http://support.fujitsu-cf.com",
    "version": 2,
    "description": "Cloud Foundry sponsored by ABC",
    "authorization_endpoint": "https://login.run.abc.com",

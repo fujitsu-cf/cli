@@ -1,6 +1,6 @@
 package fakes
 
-import "github.com/cloudfoundry/cli/cf/models"
+import "github.com/fujitsu-cf/cli/cf/models"
 
 type FakeServiceSummaryRepo struct {
 	GetSummariesInCurrentSpaceInstances []models.ServiceInstance

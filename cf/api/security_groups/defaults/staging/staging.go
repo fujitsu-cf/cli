@@ -1,11 +1,11 @@
 package staging
 
 import (
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/net"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/net"
 
-	. "github.com/cloudfoundry/cli/cf/api/security_groups/defaults"
+	. "github.com/fujitsu-cf/cli/cf/api/security_groups/defaults"
 )
 
 const urlPath = "/v2/config/staging_security_groups"

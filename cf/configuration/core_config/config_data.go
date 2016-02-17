@@ -3,7 +3,7 @@ package core_config
 import (
 	"encoding/json"
 
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type AuthPromptType string

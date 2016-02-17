@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/blang/semver"
-	"github.com/cloudfoundry/cli/cf/configuration"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/configuration"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type ConfigRepository struct {
@@ -30,7 +30,7 @@ func NewRepositoryFromPersistor(persistor configuration.Persistor, errorHandler 
 		//set default plugin repo
 		data.PluginRepos = append(data.PluginRepos, models.PluginRepo{
 			Name: "CF-Community",
-			Url:  "http://plugins.cloudfoundry.org",
+			Url:  "http://plugins.fujitsu-cf.org",
 		})
 	}
 

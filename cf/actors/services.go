@@ -1,10 +1,10 @@
 package actors
 
 import (
-	"github.com/cloudfoundry/cli/cf/actors/broker_builder"
-	"github.com/cloudfoundry/cli/cf/actors/service_builder"
-	"github.com/cloudfoundry/cli/cf/api/organizations"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/actors/broker_builder"
+	"github.com/fujitsu-cf/cli/cf/actors/service_builder"
+	"github.com/fujitsu-cf/cli/cf/api/organizations"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type ServiceActor interface {

@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/actors"
-	"github.com/cloudfoundry/cli/cf/api/resources"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/actors"
+	"github.com/fujitsu-cf/cli/cf/api/resources"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type FakePushActor struct {

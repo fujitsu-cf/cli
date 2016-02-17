@@ -8,7 +8,7 @@ import (
 
 	"github.com/cloudfoundry/gofileutils/fileutils"
 
-	. "github.com/cloudfoundry/cli/cf/trace"
+	. "github.com/fujitsu-cf/cli/cf/trace"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

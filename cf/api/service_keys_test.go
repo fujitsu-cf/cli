@@ -4,17 +4,17 @@ import (
 	"net/http"
 	"time"
 
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testnet "github.com/fujitsu-cf/cli/testhelpers/net"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 	"github.com/onsi/gomega/ghttp"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/net"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/net"
 
-	. "github.com/cloudfoundry/cli/cf/api"
+	. "github.com/fujitsu-cf/cli/cf/api"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

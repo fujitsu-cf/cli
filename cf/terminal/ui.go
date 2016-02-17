@@ -6,11 +6,11 @@ import (
 	"io"
 	"strings"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/trace"
+	"github.com/fujitsu-cf/cli/cf"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/trace"
 )
 
 type ColoringFunction func(value string, row int, col int) string
@@ -235,7 +235,7 @@ func (ui *terminalUI) Table(headers []string) Table {
 func (ui *terminalUI) NotifyUpdateIfNeeded(config core_config.Reader) {
 	if !config.IsMinCliVersion(cf.Version) {
 		ui.Say("")
-		ui.Say(T("Cloud Foundry API version {{.ApiVer}} requires CLI version {{.CliMin}}.  You are currently on version {{.CliVer}}. To upgrade your CLI, please visit: https://github.com/cloudfoundry/cli#downloads",
+		ui.Say(T("Cloud Foundry API version {{.ApiVer}} requires CLI version {{.CliMin}}.  You are currently on version {{.CliVer}}. To upgrade your CLI, please visit: https://github.com/fujitsu-cf/cli#downloads",
 			map[string]interface{}{
 				"ApiVer": config.ApiVersion(),
 				"CliMin": config.MinCliVersion(),

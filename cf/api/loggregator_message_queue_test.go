@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	. "github.com/cloudfoundry/cli/cf/api"
+	. "github.com/fujitsu-cf/cli/cf/api"
 	"github.com/cloudfoundry/loggregatorlib/logmessage"
 	"github.com/gogo/protobuf/proto"
 	. "github.com/onsi/ginkgo"

@@ -1,7 +1,7 @@
 package fakes
 
 import (
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
+	testnet "github.com/fujitsu-cf/cli/testhelpers/net"
 	"net/http"
 )
 

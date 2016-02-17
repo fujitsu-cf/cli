@@ -2,7 +2,7 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api/copy_application_source"
+	. "github.com/fujitsu-cf/cli/cf/api/copy_application_source"
 
 	"sync"
 )

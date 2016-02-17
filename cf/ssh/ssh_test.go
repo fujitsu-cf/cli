@@ -22,11 +22,11 @@ import (
 	"github.com/cloudfoundry-incubator/diego-ssh/test_helpers/fake_io"
 	"github.com/cloudfoundry-incubator/diego-ssh/test_helpers/fake_net"
 	"github.com/cloudfoundry-incubator/diego-ssh/test_helpers/fake_ssh"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/ssh"
-	"github.com/cloudfoundry/cli/cf/ssh/fakes"
-	"github.com/cloudfoundry/cli/cf/ssh/options"
-	"github.com/cloudfoundry/cli/cf/ssh/terminal/terminal_helper_fakes"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/ssh"
+	"github.com/fujitsu-cf/cli/cf/ssh/fakes"
+	"github.com/fujitsu-cf/cli/cf/ssh/options"
+	"github.com/fujitsu-cf/cli/cf/ssh/terminal/terminal_helper_fakes"
 	"github.com/docker/docker/pkg/term"
 	"github.com/kr/pty"
 	"github.com/pivotal-golang/lager/lagertest"
@@ -786,7 +786,7 @@ var _ = Describe("SSH", func() {
 				done = make(chan struct{}, 1)
 
 				fakeConnection.SendRequestStub = func(reqName string, wantReply bool, message []byte) (bool, []byte, error) {
-					Expect(reqName).To(Equal("keepalive@cloudfoundry.org"))
+					Expect(reqName).To(Equal("keepalive@fujitsu-cf.org"))
 					Expect(wantReply).To(BeTrue())
 					Expect(message).To(BeNil())
 
@@ -1166,7 +1166,7 @@ var _ = Describe("SSH", func() {
 				done = make(chan struct{}, 1)
 
 				fakeConnection.SendRequestStub = func(reqName string, wantReply bool, message []byte) (bool, []byte, error) {
-					Expect(reqName).To(Equal("keepalive@cloudfoundry.org"))
+					Expect(reqName).To(Equal("keepalive@fujitsu-cf.org"))
 					Expect(wantReply).To(BeTrue())
 					Expect(message).To(BeNil())
 

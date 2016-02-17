@@ -2,8 +2,8 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/actors"
-	"github.com/cloudfoundry/cli/cf/models"
+	. "github.com/fujitsu-cf/cli/cf/actors"
+	"github.com/fujitsu-cf/cli/cf/models"
 	"sync"
 )
 

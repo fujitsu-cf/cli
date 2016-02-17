@@ -3,13 +3,13 @@ package requirements_test
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/requirements"
 
-	testApplication "github.com/cloudfoundry/cli/cf/api/applications/fakes"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testApplication "github.com/fujitsu-cf/cli/cf/api/applications/fakes"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

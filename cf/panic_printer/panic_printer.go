@@ -3,9 +3,9 @@ package panic_printer
 import (
 	"fmt"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 var UI terminal.UI
@@ -37,9 +37,9 @@ func CrashDialog(errorMessage string, commandArgs string, stackTrace string) str
 	variable CF_TRACE set to true.
 
 	Also, please update to the latest cli and try the command again:
-	https://github.com/cloudfoundry/cli/releases
+	https://github.com/fujitsu-cf/cli/releases
 
-	Please create an issue at: https://github.com/cloudfoundry/cli/issues
+	Please create an issue at: https://github.com/fujitsu-cf/cli/issues
 
 	Include the below information when creating the issue:
 

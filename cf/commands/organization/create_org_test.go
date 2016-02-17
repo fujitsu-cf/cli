@@ -1,21 +1,21 @@
 package organization_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/errors"
+	"github.com/fujitsu-cf/cli/cf/models"
 
-	fakeflag "github.com/cloudfoundry/cli/cf/api/feature_flags/fakes"
-	test_org "github.com/cloudfoundry/cli/cf/api/organizations/fakes"
-	test_quota "github.com/cloudfoundry/cli/cf/api/quotas/fakes"
-	userCmdFakes "github.com/cloudfoundry/cli/cf/commands/user/fakes"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	fakeflag "github.com/fujitsu-cf/cli/cf/api/feature_flags/fakes"
+	test_org "github.com/fujitsu-cf/cli/cf/api/organizations/fakes"
+	test_quota "github.com/fujitsu-cf/cli/cf/api/quotas/fakes"
+	userCmdFakes "github.com/fujitsu-cf/cli/cf/commands/user/fakes"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	testcmd "github.com/fujitsu-cf/cli/testhelpers/commands"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testreq "github.com/fujitsu-cf/cli/testhelpers/requirements"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

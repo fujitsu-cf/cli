@@ -1,17 +1,17 @@
 package commands_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/plugin_config"
-	testconfig "github.com/cloudfoundry/cli/cf/configuration/plugin_config/fakes"
-	"github.com/cloudfoundry/cli/commands_loader"
-	"github.com/cloudfoundry/cli/plugin"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	io_helpers "github.com/cloudfoundry/cli/testhelpers/io"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/plugin_config"
+	testconfig "github.com/fujitsu-cf/cli/cf/configuration/plugin_config/fakes"
+	"github.com/fujitsu-cf/cli/commands_loader"
+	"github.com/fujitsu-cf/cli/plugin"
+	testcmd "github.com/fujitsu-cf/cli/testhelpers/commands"
+	io_helpers "github.com/fujitsu-cf/cli/testhelpers/io"
+	testreq "github.com/fujitsu-cf/cli/testhelpers/requirements"
+	testterm "github.com/fujitsu-cf/cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

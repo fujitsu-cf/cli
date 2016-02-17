@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/plugin"
-	"github.com/cloudfoundry/cli/plugin/models"
+	"github.com/fujitsu-cf/cli/plugin"
+	"github.com/fujitsu-cf/cli/plugin/models"
 )
 
 type FakeCliConnection struct {

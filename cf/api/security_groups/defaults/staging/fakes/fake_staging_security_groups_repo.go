@@ -4,9 +4,9 @@ package fakes
 import (
 	"sync"
 
-	. "github.com/cloudfoundry/cli/cf/api/security_groups/defaults"
-	. "github.com/cloudfoundry/cli/cf/api/security_groups/defaults/staging"
-	"github.com/cloudfoundry/cli/cf/models"
+	. "github.com/fujitsu-cf/cli/cf/api/security_groups/defaults"
+	. "github.com/fujitsu-cf/cli/cf/api/security_groups/defaults/staging"
+	"github.com/fujitsu-cf/cli/cf/models"
 )
 
 type FakeStagingSecurityGroupsRepo struct {

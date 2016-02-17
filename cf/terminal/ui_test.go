@@ -5,17 +5,17 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/models"
-	testassert "github.com/cloudfoundry/cli/testhelpers/assert"
-	"github.com/cloudfoundry/cli/testhelpers/configuration"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	io_helpers "github.com/cloudfoundry/cli/testhelpers/io"
+	"github.com/fujitsu-cf/cli/cf"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	"github.com/fujitsu-cf/cli/cf/i18n"
+	"github.com/fujitsu-cf/cli/cf/models"
+	testassert "github.com/fujitsu-cf/cli/testhelpers/assert"
+	"github.com/fujitsu-cf/cli/testhelpers/configuration"
+	testconfig "github.com/fujitsu-cf/cli/testhelpers/configuration"
+	io_helpers "github.com/fujitsu-cf/cli/testhelpers/io"
 
-	. "github.com/cloudfoundry/cli/cf/terminal"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/fujitsu-cf/cli/cf/terminal"
+	. "github.com/fujitsu-cf/cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -380,7 +380,7 @@ var _ = Describe("UI", func() {
 			Ω(output).To(ContainSubstrings([]string{"Cloud Foundry API version",
 				"requires CLI version 6.0.0",
 				"You are currently on version 5.0.0",
-				"To upgrade your CLI, please visit: https://github.com/cloudfoundry/cli#downloads",
+				"To upgrade your CLI, please visit: https://github.com/fujitsu-cf/cli#downloads",
 			}))
 		})
 

@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	term "github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/fujitsu-cf/cli/cf"
+	"github.com/fujitsu-cf/cli/cf/configuration/core_config"
+	term "github.com/fujitsu-cf/cli/cf/terminal"
 )
 
 const QuietPanic = "I should not print anything"
@@ -156,6 +156,6 @@ func (ui *FakeUI) Table(headers []string) term.Table {
 
 func (ui *FakeUI) NotifyUpdateIfNeeded(config core_config.Reader) {
 	if !config.IsMinCliVersion(cf.Version) {
-		ui.Say("Cloud Foundry API version {{.ApiVer}} requires CLI version " + config.MinCliVersion() + "  You are currently on version {{.CliVer}}. To upgrade your CLI, please visit: https://github.com/cloudfoundry/cli#downloads")
+		ui.Say("Cloud Foundry API version {{.ApiVer}} requires CLI version " + config.MinCliVersion() + "  You are currently on version {{.CliVer}}. To upgrade your CLI, please visit: https://github.com/fujitsu-cf/cli#downloads")
 	}
 }

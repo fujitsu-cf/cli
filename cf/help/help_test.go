@@ -4,11 +4,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/config_helpers"
-	"github.com/cloudfoundry/cli/cf/help"
+	"github.com/fujitsu-cf/cli/cf/command_registry"
+	"github.com/fujitsu-cf/cli/cf/configuration/config_helpers"
+	"github.com/fujitsu-cf/cli/cf/help"
 
-	io_helpers "github.com/cloudfoundry/cli/testhelpers/io"
+	io_helpers "github.com/fujitsu-cf/cli/testhelpers/io"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

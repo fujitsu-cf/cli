@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	clipr "github.com/cloudfoundry-incubator/cli-plugin-repo/models"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/fujitsu-cf/cli/cf/models"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/fujitsu-cf/cli/cf/i18n"
 )
 
 type PluginRepo interface {

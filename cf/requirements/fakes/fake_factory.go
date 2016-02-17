@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/blang/semver"
-	"github.com/cloudfoundry/cli/cf/requirements"
+	"github.com/fujitsu-cf/cli/cf/requirements"
 )
 
 type FakeFactory struct {
